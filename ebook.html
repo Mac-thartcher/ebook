@@ -5,6 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your eBook Title</title>
     <link rel="stylesheet" href="styles.css"/>
+    <script>
+  const element = document.querySelector('p');
+  element.innerHTML = '<span>LOL</span>'; // Renders HTML
+
+  const valueFromUse = prompt('just learn:');
+  element.innerHTML = `<span>${valueFromUse}</span>`; // Template literal
+
+  console.log(element);
+</script>
+
 
 </head>
 <body>
