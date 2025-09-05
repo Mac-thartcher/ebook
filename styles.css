@@ -37,7 +37,7 @@
             margin-bottom: 20px;
         }
         ul {
-            list-style: none;
+            list-style: disc;
             padding-left: 0;
         }
         ul li {
